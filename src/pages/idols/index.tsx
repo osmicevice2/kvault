@@ -58,7 +58,7 @@ export default function Idols() {
         <div className="empty-state">
           <div className="icon">⭐</div>
           <h3>No idols yet</h3>
-          <p>Add your favourite K-pop idols</p>
+          <p>Add your favorite K-pop idols</p>
           <button className="btn btn-primary" style={{ marginTop: 16 }} onClick={() => setModal(true)}>Add Idol</button>
         </div>
       ) : (

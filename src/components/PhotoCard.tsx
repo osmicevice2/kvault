@@ -9,6 +9,7 @@ interface PhotoCardProps {
 export default function PhotoCard({ photo, onClick }: PhotoCardProps) {
   return (
     <div
+      className="photo-card"
       onClick={onClick}
       style={{
         borderRadius: 'var(--radius-lg)',

@@ -36,7 +36,7 @@ export default function GroupCard({ group }: GroupCardProps) {
           border: '3px solid rgba(233, 30, 140, 0.2)',
         }}>
           {group.image_path
-            ? <img src={`/api/photos/serve/${group.id}?type=group`} alt={group.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            ? <img src={group.image_path} alt={group.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             : '🎵'}
         </div>
         <div>
